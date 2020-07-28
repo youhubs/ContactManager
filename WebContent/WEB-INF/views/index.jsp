@@ -18,6 +18,9 @@ table, th, td {
 <body>
 	<div align="center">
 		<h1>Contact List</h1>
+		<h3>
+			<a href="new">New Contact</a>
+		</h3>
 		<table style="border-collapse: separate; border-spacing: 5px;">
 			<tr>
 				<th>No</th>
