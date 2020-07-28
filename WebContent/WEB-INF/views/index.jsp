@@ -37,7 +37,8 @@ table, th, td {
 					<td>${contact.email}</td>
 					<td>${contact.address}</td>
 					<td>${contact.phone}</td>
-					<td><a href="edit?id=${contact.id}">Edit</a></td>
+					<td><a href="edit?id=${contact.id}">Edit</a> &nbsp;&nbsp; <a
+						href="delete?id=${contact.id}">Delete</a></td>
 				</tr>
 			</c:forEach>
 		</table>
