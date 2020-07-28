@@ -32,11 +32,12 @@ table, th, td {
 			</tr>
 			<c:forEach items="${listContact }" var="contact" varStatus="status">
 				<tr>
-					<th>${status.index + 1}</th>
-					<th>${contact.name}</th>
-					<th>${contact.email}</th>
-					<th>${contact.address}</th>
-					<th>${contact.phone}</th>
+					<td>${status.index + 1}</td>
+					<td>${contact.name}</td>
+					<td>${contact.email}</td>
+					<td>${contact.address}</td>
+					<td>${contact.phone}</td>
+					<td><a href="edit?id=${contact.id}">Edit</a></td>
 				</tr>
 			</c:forEach>
 		</table>
