@@ -1,12 +1,11 @@
-This is a Java Spring MVC project with JDBC/CRUD. 
-This Java web application using Eclipse, Tomcat, MySQL, and JUnit.
+This is a Maven project with Spring MVC, JDBC/CRUD, MySQL, JUnit, Tomcat, and Eclipse. 
 ### Steps:
 1. Create MySQL Database
 2. Create Dynamic Web Project
-3. Specify Dependencies (Maven)
-4. Code Model Class
-5. Code DAO Classes + Units Tests
-6. Configure Spring MVC Dispatches Servlet
+3. Configure pom.xml dependencies
+4. Code Contact Model class
+5. Code ContactDAO classes + Units Tests
+6. Configure Spring MVC Dispatches - Servlet
 7. Configure Spring MVC
 8. Code Spring Controller
 9. Code JSPs: index, contact_form
